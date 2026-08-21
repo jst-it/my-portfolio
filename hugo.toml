@@ -1,0 +1,40 @@
+baseURL = 'https://joestebbings.com'
+languageCode = 'en-us'
+title = 'Joe Stebbings'
+theme = 'PaperMod'
+
+[params]
+  description = "Learning notes and projects"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  homeInfoParams.Title = "Hi there 👋"
+  homeInfoParams.Content = "🚧 **Work in Progress** — this site is actively under construction. Check back soon."
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "blogs"
+    name = "Blogs"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/jst-it"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/jst-it"
+    weight = 3
+    [menu.main.params]
+      newtab = true

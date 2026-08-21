@@ -1,0 +1,11 @@
+{
+  "name": "my-portfolio",
+  "compatibility_date": "2026-08-21",
+  "build": {
+    "command": "hugo --gc --minify"
+  },
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}
